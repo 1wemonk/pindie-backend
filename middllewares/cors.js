@@ -5,7 +5,8 @@ const allowedCors = ["http://localhost:3001",
                      "https://pinbackwemonk.nomorepartiesco.ru",
                      "https://pindiebacksrrnt.nomoredomainswork.ru/api",
                      "https://pinbackwemonk.nomorepartiesco.ru/api",
-                     "https://pinfrontwemonk.nomorepartiesco.ru"];
+                     "https://pinfrontwemonk.nomorepartiesco.ru",
+                     "https://pindiebacksrrnt.nomoredomainswork.ru"];
 
 function cors(req, res, next) {
   const { origin } = req.headers;

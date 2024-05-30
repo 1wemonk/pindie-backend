@@ -3,7 +3,8 @@
 const allowedCors = ["http://localhost:3001", 
                      "http://localhost:3000", 
                      "https://pinbackwemonk.nomorepartiesco.ru",
-                     "https://pinbackwemonk.nomorepartiesco.ru/api"];
+                     "https://pinbackwemonk.nomorepartiesco.ru/api",
+                     "https://pinfrontwemonk.nomorepartiesco.ru"];
 
 function cors(req, res, next) {
   const { origin } = req.headers;

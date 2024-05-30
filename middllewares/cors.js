@@ -1,7 +1,9 @@
 // Вместо нашего адреса вставь свой
 // Можно ещё не удалять адреса с localhost, но мы удалили для краткости
 const allowedCors = ["http://localhost:3001", 
-                     "http://localhost:3000", ];
+                     "http://localhost:3000", 
+                     "https://pinbackwemonk.nomorepartiesco.ru",
+                     "https://pinbackwemonk.nomorepartiesco.ru/api"];
 
 function cors(req, res, next) {
   const { origin } = req.headers;
